@@ -66,3 +66,7 @@ input{
     gap: 5px;
 
 }
+.output{
+    margin-top: 20px;
+    height: auto;
+}
