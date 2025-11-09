@@ -2,65 +2,75 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quran API</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="sty.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quran API</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<link rel="stylesheet" href="sty.css">
 </head>
 
 <body>
-    <div class="bg-black h-[100%]">
-        <div class="h-[50vh] bg-white/20  ">
-            <form action="">
-                <h1 class="text-center text-[30px] font-bold">Quran API</h1>
-                <div class="flex justify-center  in ">
-                    <input id="inp" type="tel" class="bg-white/5 w-[300px] h-8  " placeholder="surah Number">
-                </div>
+	<div class="bg-black h-[100%]">
+		<div class="h-[50vh] bg-white/20  ">
+			<form action="">
+				<h1 class="text-center text-[30px] font-bold">Quran API</h1>
+				<div class="flex justify-center  in ">
+					<input id="inp" type="tel" class="bg-white/5 w-[300px] h-8  " placeholder="surah Number">
+				</div>
 
-                <div class="flex justify-evenly font-semibold  w-[300px] ft">
-                   <div class="flex flex-col">
-                     <label for="from">From:</label>
-                    <input id="from" type="tel"  placeholder="#" class="h-8 bg-white/5 w-10">
-                   </div>
-                   <div class="flex flex-col ">
-                     <label for="to">To:</label>
-                    <input id="to" type="tel" placeholder="#"  class="h-8 bg-white/5 w-10">
-                   </div>
-                </div>
-                <div class="submit flex justify-center " >
-                    <input type="submit" class="bg-gray-600 w-40 h-10 rounded-lg font-bold hover:bg-gray-800 cursor-pointer" value="Submit">
-                </div>
-            </form>
-           
-        </div>
+				<div class="flex justify-evenly font-semibold  w-[300px] ft">
+					<div class="flex flex-col">
+						<label for="from">From:</label>
+						<input id="from" type="tel" placeholder="#" class="h-8 bg-white/5 w-10">
+					</div>
+					<div class="flex flex-col ">
+						<label for="to">To:</label>
+						<input id="to" type="tel" placeholder="#" class="h-8 bg-white/5 w-10">
+					</div>
+				</div>
+				<div class="submit flex justify-center ">
+					<input type="submit"
+						class="bg-gray-600 w-40 h-10 rounded-lg font-bold hover:bg-gray-800 cursor-pointer"
+						value="Submit">
+				</div>
+			</form>
 
-        <div class="out h-[100%] min-h-[50vh] bg-white/6">
-            <h1 class="text-center ">ALL DATA </h1>
+		</div>
+
+		<div class="out h-[100%] min-h-[50vh] bg-white/6">
+			<h1 class="text-center ">ALL DATA </h1>
 
 			<div class="output overflow-y-auto h-[80%] p-2 bg-black/10 rounded-lg">
-           
-       
-           
-        </div>
-    </div>
-     <div id="tost" class="toster hide">
-        <p>Data fetching....
-            <?xml version="1.0" encoding="utf-8"?><!--Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)--><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="30" height="30"  version="1.1" id="cog5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><style>.spinning-cog4416 {
-			animation: spinning-cog4416 1.3s infinite ease;
-			transform-origin: 50% 50%;
-			/* Ensures the cog rotates around its center */
-		}
 
-		@keyframes spinning-cog4416 {
-			0% {
-				transform: rotate(0deg);
-			}
+				
 
-			100% {
-				transform: rotate(360deg);
-			}
-		}</style><path class="spinning-cog4416" fill="currentColor" d="M87.311,48c0-0.983-0.076-1.947-0.147-2.912c3.839-1.227,6.879-2.397,8.837-3.441l-0.704-3.963
+			</div>
+		</div>
+		<div id="tost" class="toster hide">
+			<p>Data fetching....
+				<?xml version="1.0" encoding="utf-8"?><!--Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)-->
+				<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg
+					width="30" height="30" version="1.1" id="cog5" xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 96 96"
+					enable-background="new 0 0 96 96" xml:space="preserve">
+					<style>
+						.spinning-cog4416 {
+							animation: spinning-cog4416 1.3s infinite ease;
+							transform-origin: 50% 50%;
+							/* Ensures the cog rotates around its center */
+						}
+
+						@keyframes spinning-cog4416 {
+							0% {
+								transform: rotate(0deg);
+							}
+
+							100% {
+								transform: rotate(360deg);
+							}
+						}
+					</style>
+					<path class="spinning-cog4416" fill="currentColor" d="M87.311,48c0-0.983-0.076-1.947-0.147-2.912c3.839-1.227,6.879-2.397,8.837-3.441l-0.704-3.963
 	c-2.198-0.316-5.456-0.385-9.481-0.236c-0.535-1.89-1.203-3.719-2.007-5.48c3.179-2.452,5.629-4.58,7.106-6.225l-2.027-3.484
 	c-2.176,0.449-5.263,1.491-8.997,2.998c-1.148-1.582-2.397-3.084-3.767-4.476c2.141-3.381,3.709-6.211,4.53-8.257l-3.106-2.586
 	c-1.886,1.157-4.419,3.175-7.399,5.849c-1.614-1.095-3.332-2.041-5.107-2.891c0.848-3.912,1.346-7.108,1.413-9.313l-3.811-1.375
@@ -87,13 +97,16 @@
 	c-1.225,0-2.397,0.188-3.536,0.464l-3.102-5.372C43.451,27.394,45.679,27,48,27c10.559,0,19.297,7.84,20.761,18H62.697z M15,48
 	c0-11.57,5.967-21.734,14.979-27.625l2.998,5.192C25.755,30.413,21,38.649,21,48s4.755,17.588,11.977,22.434l-2.998,5.191
 	C20.967,69.734,15,59.57,15,48z M48,81c-4.511,0-8.809-0.91-12.725-2.549l3.043-5.27C41.327,74.339,44.583,75,48,75
-	c13.896,0,25.33-10.502,26.824-24h6.024C79.331,67.817,65.213,81,48,81z"/></svg>
+	c13.896,0,25.33-10.502,26.824-24h6.024C79.331,67.817,65.213,81,48,81z" />
+				</svg>
 
-        </p>
-    </div>
-    <div id="done" class="toster hide"> <p>Data fetched </p>  </div>
-    <script src="s.js"></script>
-   
+			</p>
+		</div>
+		<div id="done" class="toster hide">
+			<p>Data fetched </p>
+		</div>
+		<script src="s.js"></script>
+
 </body>
 
 </html>

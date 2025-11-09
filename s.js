@@ -59,6 +59,9 @@ btn.addEventListener("click", function (e) {
 
                 let div = document.createElement('div');
                 div.classList.add('out-2')
+                let p = document.createElement('p');
+                p.innerText = d.arabic1;
+                div.appendChild(p)
                 let audio = document.createElement('audio');
                 audio.setAttribute('src', d.audio[4].originalUrl);
                 audio.setAttribute('controls', true);
